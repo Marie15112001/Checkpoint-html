@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
     <!--barre de navigation-->
-    <nav>
+    
+    <nav  class="navbar">
         <ul>
             <li>
                 <a href="accueil">Accueil</a>
@@ -31,58 +33,36 @@
             </li> 
         </ul>
     </nav>
-    
+
+    <div class="amadou">
+        <!-- image  -->
+    <img  class="container"  src="./Images/IMG_E5721.JPG" alt="photo" > 
+
+    <div>
 <!--Title-->    
-    <h1>Bonjour,je m'appelle Marie</h1>
-    <p>Bienvenue dans mon portefeuille de developpeur web. Je m'appelle Marie Thérése Diouf,
-        je suis une étudiante en développement web qui aspire à etre une developpeuse qualifiée 
-        et créative qui se passionne pour la création de sites web beaux, réactifs et conviviaux.
-        Je voudrais travailler sur une variété de projets allant des sites professionnels aux sites 
+    <h1 >
+    Bonjour, <br> Je m'appelle <span class="marie">Marie</span> 
+    </h1>
+
+    <!-- paragraphe -->
+    <p >Bienvenue dans mon portefeuille de developpeur web. <br>Je m'appelle Marie Thérése Diouf,
+        je suis une étudiante <br> en développement web qui aspire à etre une developpeuse <br> qualifiée 
+        et créative qui se passionne pour la création de sites <br> web beaux, réactifs et conviviaux.
+        Je voudrais travailler sur une <br> variété de projets allant des sites professionnels aux sites 
         e-commerce.
     </p>
 
-<!--section apropos-->
-<section>
-    <h2  id="apropos">A propos</h2>
-</section>
+</div>
+</div>
 
-<!--section reprendre-->
-<section>
-    <h2  id="reprendre">Reprendre</h2>
-</section>
+<div  class="btn">
+     <!-- download CV  -->
+     <a href="#">Download CV</a>
 
-<!--section conctact-->
-<section>
-    <h2  id="Conctact">Conctact</h2>
-    <p>Vous pouvez me contacter par mail ou par telephone</p>
- 
-    <label>Name:</label>
+     <!-- hire me  -->
+     <a href="#">Hire me</a>
+</div>
 
-    <div>
-        <input type="text" name="name" placeholder="Votre nom">
-    </div>
-
-    <label>Email:</label>
-
-    <div>
-        <input type="email"  name="email"  placeholder="Votre email">
-    </div>
-
-    <label>Message</label>
-
-    <div>
-        <input type="sms"  name="message"  placeholder="Votre message">
-    </div>
-
-    <button>Envoyer</button>
-
-    <h3>Informations</h3>
-    <p>00221777175548</p>
-    <p>dioufmarietherese09@gmail.com</p>
-    <p>Yoff, Terme-Nord</p>
-</section>
 </body>
-
-
-<footer>Copyright 2024</footer>
+<footer>copyright 2024</footer>
 </html>
